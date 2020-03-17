@@ -9,6 +9,7 @@ use Illuminate\Support\Fluent;
  * @method ColumnDefinition after(string $column) Place the column "after" another column (MySQL)
  * @method ColumnDefinition always() Used as a modifier for generatedAs() (PostgreSQL)
  * @method ColumnDefinition autoIncrement() Set INTEGER columns as auto-increment (primary key)
+ * @method ColumnDefinition before(string $column) Place the column "before" another column (MySQL)
  * @method ColumnDefinition change() Change the column
  * @method ColumnDefinition charset(string $charset) Specify a character set for the column (MySQL)
  * @method ColumnDefinition collation(string $collation) Specify a collation for the column (MySQL/PostgreSQL/SQL Server)
